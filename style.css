@@ -790,3 +790,369 @@ body {
 .social-icon-container span img:hover {
   filter: drop-shadow(0px 0px 10px white);
 }
+
+
+
+/* ------------------------------Responsive--------- */
+
+
+/* Your existing CSS remains unchanged up to this point */
+
+/* Tablet Devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  /* Header */
+  #header {
+    height: 8vh;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .header-logo img {
+    width: 150px;
+  }
+
+  #navbar-list-item {
+    display: none; /* Hide navbar for tablet; you could replace with a hamburger menu */
+  }
+
+  /* Hero Section */
+  .hero-container-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero-container-content .left-heading,
+  .hero-container-content .right-subheading {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-container-content .left-heading h1 {
+    font-size: 3rem;
+  }
+
+  .hero-container-content .right-subheading h3 {
+    font-size: 1.1rem;
+    width: 100%;
+  }
+
+  .hero-container-content .right-subheading a {
+    font-size: 1.1rem;
+  }
+
+  /* Video Section */
+  .video-container {
+    grid-template-columns: 1fr; /* Stack videos vertically */
+  }
+
+  .video-wrapper {
+    height: 400px;
+  }
+
+  .overlay h1 {
+    font-size: 2rem;
+  }
+
+  .overlay .overlay-text {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+
+  /* Welcome Section */
+  .welcome-container {
+    height: 60vh;
+  }
+
+  .welcome-container-content {
+    padding-left: 30px;
+  }
+
+  .welcome-container-content h1 {
+    font-size: 2.2rem;
+    width: 50%;
+  }
+
+  .welcome-container-content h3 {
+    font-size: 1.2rem;
+    width: 60%;
+  }
+
+  /* Industry Section */
+  .industry-container {
+    height: auto;
+    padding: 20px;
+  }
+
+  .industry-content-box {
+    width: 100%;
+  }
+
+  .industry-content-list-item {
+    padding: 20px 5px;
+  }
+
+  /* Slider Section */
+  .slider-container {
+    height: 60vh;
+  }
+
+  .slide .content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .slide .content h1 {
+    font-size: 1.8rem;
+    width: 80%;
+  }
+
+  .slide .content p {
+    font-size: 1.1rem;
+    width: 80%;
+  }
+
+  .slide .content img {
+    width: 180px;
+  }
+
+  /* Services Section */
+  .service-container-content {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .service-img-container {
+    width: 220px;
+  }
+
+  /* Banner Section */
+  .banner-section {
+    height: 50vh;
+  }
+
+  .banner-content {
+    padding-left: 30px;
+  }
+
+  .banner-content h1 {
+    font-size: 2rem;
+    width: 50%;
+  }
+
+  .banner-content p {
+    font-size: 1.2rem;
+    width: 70%;
+  }
+
+  /* Footer */
+  .footer-social-container {
+    width: 90%;
+  }
+
+  .footer-social-heading h1 {
+    font-size: 1.8rem;
+  }
+
+  .footer-social-heading h2 {
+    font-size: 1.3rem;
+  }
+
+  .footer-social-media-container {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-more-info-container {
+    width: 90%;
+    gap: 20px;
+  }
+
+  .more-info-list-item {
+    min-width: 45%;
+  }
+
+  .footer-last-container {
+    width: 90%;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* Mobile Devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+  /* Header */
+  #header {
+    height: 7vh;
+    padding: 0 15px;
+  }
+
+  .header-logo img {
+    width: 120px;
+  }
+
+  /* Hero Section */
+  .hero-container-content .left-heading h1 {
+    font-size: 2rem;
+  }
+
+  .hero-container-content .right-subheading h3 {
+    font-size: 0.9rem;
+  }
+
+  .hero-container-content .right-subheading a {
+    font-size: 1rem;
+  }
+
+  /* Video Section */
+  .video-wrapper {
+    height: 300px;
+  }
+
+  .overlay h1 {
+    font-size: 1.5rem;
+  }
+
+  .overlay .overlay-text {
+    font-size: 1rem;
+    width: 90%;
+  }
+
+  /* Welcome Section */
+  .welcome-container {
+    height: 50vh;
+  }
+
+  .welcome-container-content {
+    padding-left: 20px;
+  }
+
+  .welcome-container-content h1 {
+    font-size: 1.8rem;
+    width: 70%;
+  }
+
+  .welcome-container-content h3 {
+    font-size: 1rem;
+    width: 80%;
+  }
+
+  /* Industry Section */
+  .industry-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .industry-content-list-item span {
+    font-size: 1.2rem;
+  }
+
+  .industry-content-list-item span img {
+    width: 18px;
+  }
+
+  /* Slider Section */
+  .slider-container {
+    height: 50vh;
+    padding: 10px;
+  }
+
+  .slide .content h1 {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+
+  .slide .content p {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+
+  .slide .content img {
+    width: 140px;
+  }
+
+  .slider-controls {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  /* Services Section */
+  .service-img-container {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .service-overlay {
+    font-size: 1.2rem;
+  }
+
+  /* Banner Section */
+  .banner-section {
+    height: 40vh;
+  }
+
+  .banner-content {
+    padding-left: 20px;
+  }
+
+  .banner-content h1 {
+    font-size: 1.5rem;
+    width: 70%;
+  }
+
+  .banner-content p {
+    font-size: 1rem;
+    width: 90%;
+  }
+
+  .banner-content .btn {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+
+  /* Footer */
+  .footer-social-heading h1 {
+    font-size: 1.5rem;
+  }
+
+  .footer-social-heading h2 {
+    font-size: 1.2rem;
+  }
+
+  .social-media-img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .social-media-text img {
+    width: 100px;
+  }
+
+  .social-media-text p {
+    font-size: 1.2rem;
+  }
+
+  .more-info-list-item h2 {
+    font-size: 1.3rem;
+  }
+
+  .more-info-list-item ul li {
+    font-size: 0.9rem;
+    margin-top: 15px;
+  }
+
+  .footer-last-content {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .footer-last-container img {
+    width: 150px;
+  }
+
+  .social-icon-container span img {
+    width: 25px;
+    margin-right: 20px;
+  }
+}
